@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #7</title>
+    
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100px; /* Control the size of images */
+            height: auto;
+        }
+        </style>
+</head>
+<body>
+    <h2>Images in Tables</h2><hr>
+    <div>
+        <h5>What are you favorite pets ?</h5>
+        <table>
+            <tr>
+                <th><h4>Pet Image</h4></th>                
+                <th><h4>More Facts</h4>  </th>
+            </tr>
+            <tr>
+                <td><img src="/media/Halterstandingshotarabianone.jpg" alt="Image 1"></td>
+                <td><a href="https://mawdoo3.com/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA_%D8%B9%D9%86_%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D9%86" target="_blank">Read More</a></td>
+            </tr>
+            <tr>
+                <td><img src="media/FELV-cat.jpg" alt="Image 2"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Read More</a></td>
+            </tr>
+            <tr>
+                <td><img src="media/DOG.jpg" alt="Image 3"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Read More</a></td>
+            </tr>
+        </table>
+    </div><br><br>
+
+    <div>
+    <table>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Frid</th>
+            </tr>
+            
+            <tr>
+                <td>Math</td>
+                <td>English</td>
+                <td>Science</td>       
+                <td>English</td>
+                <td>Art</td>
+
+            </tr>
+            
+            <tr>
+                <td>Science</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Art</td>
+                <td>English</td>
+
+            </tr>
+
+            <tr>
+                <th colspan="6">Lunch</th>
+            </tr>
+
+            <tr>
+                <td>Science</td>
+                <td>English</td>
+                <td>Math</td>
+                <td colspan="2" rowspan="2">project</td>
+            </tr>
+
+            <tr>
+                <td>Math</td>
+                <td>Art</td>
+                <td>English</td>
+            </tr>
+    </table>
+    </div><br><br>
+
+    <div>
+        <table >
+            <tr>
+                <th colspan="2">Language and Farmvill</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Django</td>
+            </tr>
+            <tr>
+                <td rowspan=2>Javascript</td>
+                <td>react.js</td>
+
+            </tr>
+            <tr>
+                <td>Vue.js</td>
+            </tr>
+
+            <tr>
+                <td>Rudby</td>
+                <td>Ruby on </td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+                <th colspan="2"></th>
+                <th colspan="2"></th>
+                <th>Row1</th>
+            </tr>
+            <tr>
+                <td colspan="4"rowspan="2" ></td>
+                <td>Row2</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"></td>
+                <td>Row3</td>
+            </tr>
+
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+                <td colspan="3">Row4</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    
+
+
+
+</body>
+</html>

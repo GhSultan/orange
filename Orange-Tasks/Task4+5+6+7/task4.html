@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #4</title>
+    <style>
+        .form-group {
+            margin-bottom:6px; 
+        }
+        .form-group label {
+            display: inline-block; 
+            width: 100px; 
+            text-align: left; 
+        }
+        .form-group input {
+            width: 100px; 
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Fill in your information</h2>
+    </header>
+
+    <main>
+       <form action="/submit-form" method="post" enctype="multipart/form-data"></form>
+
+        <div class="inbut-filed">
+            <label for="first-input">First Name :</label><br>
+            <input type="text" id="first-input" name="first-name"><br><br>
+            
+            <label for="last-input"> Last Name :</label><br>
+            <input type="text" id="last-input" name="last-name"><br><br>
+            
+            <label for="email-input">Email :</label><br>
+            <input type="email" id="email-input" name="email">
+        </div><br><br>
+
+        <div class="radio-group">
+            <h3>Your Gender</h3>
+            <label for="radio-option1">
+                <input type="radio" id="radio-option1" name="gender" value="option1">Male
+            </label>
+
+            <label for="radio-option2">
+                <input type="radio" id="radio-option2" name="gender" value="option2">Female
+            </label>
+        </div><br><br>
+
+        <div class="checkbox">
+            <h3>Favorite Subjects </h3>
+            <label></label>
+                <input type="checkbox" name="checkbox-input" value="option1" >C++
+            <label></label>
+                <input type="checkbox" name="checkbox-input" value="option2"> Java
+            <label></label>
+                <input type="checkbox" name="checkbox-input" value="option3">C#
+            <label ></label>
+                <input type="checkbox" name="checkbox-input" value="option4">PHP
+            <label ></label>
+                <input type="checkbox" name="checkbox-input" value="option5">SQL
+        </div><br><br>
+
+        <div class="list">
+            <h3>Your City</h3>
+            <label for="your-city">City :</label>
+                <select id="your-city" name="city">
+                    <option value="option1">Irbid</option>
+                    <option value="option2">Amman</option>
+                </select>
+        </div><br><br>
+
+        <div class="upload-imag">
+            <label for="image-upload">Upload Image :</label>
+                <input type="file" id="image-upload" name="image" accept="image/*">            
+        </div><br><br>
+
+        <div class="textarea">
+            <label for="textarea-input">Write about yourself</label><br><br>
+            <textarea name="textarea" id="textarea-input" rows="5"></textarea>
+        </div>
+            <button type="submit">submit</button>        
+    </form><br><br><br>
+
+    <div class="form-group">
+        <label for="name-input">Name :</label>
+        <input type="text" id="name-input" name="username">
+    </div>
+    <div class="form-group">
+        <label for="address-input">Address :</label>
+        <input type="text" id="address-input" name="address">
+    </div>
+    <div class="form-group">
+        <label for="city-input">City :</label>
+        <input type="text" id="city-input" name="city">
+    </div>
+    <div class="form-group">
+        <label for="state-input">State :</label>
+        <input type="text" id="state-input" name="state">
+    </div>
+    <div class="form-group">
+        <label for="zip-input">Zip :</label>
+        <input type="text" id="zip-input" name="zip">
+    </div>
+
+    <div class="form-group">
+        <label for="list-input">Magazine :</label>
+             <select id="list-input" name="Magazine">
+                    <option value="option1">Newsweek</option>
+                    <option value="option2">Jprdan</option>
+            </select>    
+    </div>
+
+    <div >
+        <label for="radio1">Subscription</label>
+            <input type="radio" id="radio1" name="subscription" value="option1">1 year
+            <input type="radio" id="radio2" name="subscription" value="option2">2 years
+    </div><br>
+        <button type="submit">Send your order</button>
+    </main>
+    
+</body>
+</html>
