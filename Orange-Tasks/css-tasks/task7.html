@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Artical</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: pink;
+            height: 100vh;
+        }
+        .div-top{
+            display: flex;
+            flex-direction: row;
+            height: 30%;
+            justify-content: space-between;
+        }
+        .box-one{
+            background-color: white;
+            width: 30%;
+            padding-left: 4px;
+            margin-left: 5px;
+        }
+        .box-one p{
+            font-size: small;
+        }
+        .scroll-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            height: 100px; 
+            border: 1px solid black;
+            overflow-y: scroll; 
+        }
+
+        .content {
+            height: 100px; 
+        }
+
+        .bottom-div{
+            display: flex;
+            flex-direction: row;
+            height: 30%;
+            margin-top: 10px;
+            gap: 30px;
+        }
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <h3>Floating Articles</h3>
+
+    <div class="div-top">
+        <div class="box-one">
+            <p>ext messaging, or texting, is the act of composing and sending electronic messages,
+                typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, 
+                 desktops/laptops, or another type of compatible computer.
+            </p>
+
+        </div>
+
+        <div class="box-one">
+            <p>ext messaging, or texting, is the act of composing and sending electronic messages,
+                typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, 
+                desktops/laptops, or another type of compatible computer.
+            </p>
+
+        </div>
+
+        <div class="box-one">
+            <p>ext messaging, or texting, is the act of composing and sending electronic messages,
+                typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, 
+                desktops/laptops, or another type of compatible computer.
+            </p>
+        </div>
+
+    </div>
+
+    
+    <div class="scroll-container">
+        <div class="content">
+            <p>This is some content inside the scrollable area. Add more content here to see the scrollbar.</p>
+        </div>
+
+    </div>
+
+    <div class="bottom-div">
+    
+        <div class="box-one">
+            <p>ext messaging, or texting, is the act of composing and sending electronic messages,
+                 typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, 
+                desktops/laptops, or another type of compatible computer.
+            </p>
+
+         </div>
+
+         <div class="box-one">
+            <p>ext messaging, or texting, is the act of composing and sending electronic messages,
+                 typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, 
+                desktops/laptops, or another type of compatible computer.
+            </p>
+
+         </div>
+         
+    </div>
+    
+
+</body>
+</html>

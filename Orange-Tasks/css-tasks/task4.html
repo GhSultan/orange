@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Sign up</title>
+</head>
+<style>
+    body {
+        background-color: rgb(218, 200, 235);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        background-color: rgb(166, 106, 222);
+        border: 1px solid rgb(167, 164, 164);
+        border-radius: 9px;
+        width: 350px;
+        height: 550px;
+        padding: 10px 0 0 9px;
+        margin-top: 80px;
+        box-shadow: 0 3px 10px rgb(139, 135, 135);
+        
+    }
+
+
+    h3 {
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+    .continar-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+
+    .continar-text input {
+        width: 43%;
+        padding: 10px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+
+    .other-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        height: 200px;
+    }
+
+    .other-group input {
+        width: 90%;
+        border-radius: 10px;
+        padding: 7px;
+        border-style: solid;
+    }
+
+    .checkboxGroup {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .sub-botton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        background-color: gray;
+        width: 300px;
+        height:40px;
+        border-radius: 20px;
+
+    }
+    .link-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .link-login p{
+        color: white;
+        margin-bottom: 2px;
+    }
+    .link-login p a{
+        color: white;
+    }
+
+
+</style>
+
+<body>
+    <form action="" method="post">
+        <h3>SIGN UP</h3>
+        <div class="continar-text">
+            <input type="text" id="first-name" name="first-name" placeholder="First Name">
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+        </div>
+
+        <div class="other-group">
+            <input type="email" id="id-input" name="id-input" placeholder="Email">
+            <input type="password" id="input-pass" name="input-pass" placeholder="Pasword">
+            <input type="password" id="input-confirm" name="input-confirm" placeholder="Confirm Pasword">
+        
+        </div>
+
+        <div class="checkboxGroup">
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I accept the terms of use & Privacy Policy</label>
+
+        </div>
+
+        <div class="sub-botton">
+            <button type="submit">SIGN UP</button>
+
+        </div>
+
+        <div class="link-login">
+            <p>Already have an account ?<a href="">Login here</a></p>
+            <p>Copyrghit &copy;YourCompany.com</p>
+        </div>
+       
+    </form>
+</body>
+
+</html>
